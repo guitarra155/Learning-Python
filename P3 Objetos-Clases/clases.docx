@@ -1,0 +1,9 @@
+# una clase es como el plano de una casa
+# nos indica las dimisiones, para número de habitaciones de la casa, a, 
+#  hace una idea de cómo hacemos las casas cuando las construyamos
+
+# las casas construidas en la vidad real essas son las instancias de esta clase 
+# en este caso de este plano 
+
+# el plano representa las clases 
+# la casa construida representa los objetos 
