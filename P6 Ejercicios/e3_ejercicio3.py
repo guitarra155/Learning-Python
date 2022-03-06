@@ -9,5 +9,5 @@ def menor(lista):
                 lista[j] = menor
     print(menor)
 
-listaMuestra = [10,-10,-145,-56,8,3,9,7,2,0,1,5,9,8,3,-180]
+listaMuestra = [-10,1,3,5,4,6,8,5,2,10]
 menor(listaMuestra)
