@@ -1,11 +1,13 @@
 # escribir un a función que encuentre el elemneto menor de una lista 
 def menor(lista):
-    aux = 0
+    menor = 0
     for i in range(len(lista)):
-        if lista[i] < lista[i+1]:
-            aux = lista[i]
-            lista[i] = lista[i+1]
+        for j in range(len(lista)):
+            if lista[j] <= lista[i]:
+                menor = lista[j]
+                lista[i] = lista[j]
+                lista[j] = menor
+    print(menor)
 
-
-lista = [5,8,-1,-9,45,8,2,-98,-10,4,5,3]
-
+listaMuestra = [10,-10,-145,-56,8,3,9,7,2,0,1,5,9,8,3,-180]
+menor(listaMuestra)
